@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Contact Sumith G">
+
+    <title>
+        SUMITH G | Contact
+    </title>
+
+    <link rel="stylesheet"
+          href="styles.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= HEADER ================= -->
+
+<header class="topbar">
+
+    <div class="nav-wrap">
+
+
+        <a href="index.html"
+           class="site-mark">
+
+            SG<span>.</span>
+
+        </a>
+
+
+        <nav class="main-nav">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="resume.html">
+                Resume
+            </a>
+
+            <a href="biodata.html">
+                Bio-data
+            </a>
+
+            <a href="contact.html"
+               class="active">
+
+                Contact
+
+            </a>
+
+        </nav>
+
+
+        <button id="themeToggle"
+                class="theme-button"
+                type="button">
+
+            ☼
+
+        </button>
+
+
+        <button id="menuButton"
+                class="mobile-menu-button"
+                type="button">
+
+            ☰
+
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= MAIN ================= -->
+
+<main class="contact-page">
+
+
+    <div class="contact-heading">
+
+        <p class="mono-label">
+            DOCUMENT / 04
+        </p>
+
+        <h1>
+            Contact
+        </h1>
+
+        <p>
+            Have something to discuss?
+            Send a message.
+        </p>
+
+    </div>
+
+
+
+    <section class="contact-layout">
+
+
+        <!-- ================= CONTACT INFO ================= -->
+
+        <aside class="contact-sidebar">
+
+
+            <div class="contact-big-mark">
+                SG
+            </div>
+
+
+            <p class="mono-label">
+                CONTACT DETAILS
+            </p>
+
+
+            <h2>
+                Let's connect.
+            </h2>
+
+
+            <p class="contact-description">
+
+                Whether it is an academic discussion,
+                project collaboration or technical
+                conversation, feel free to reach out.
+
+            </p>
+
+
+
+            <div class="contact-details">
+
+
+                <div>
+
+                    <span>
+                        EMAIL
+                    </span>
+
+                    <a href="mailto:sumithg2005@gmail.com">
+
+                        sumithg2005@gmail.com
+
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        PHONE
+                    </span>
+
+                    <a href="tel:8123499478">
+
+                        8123499478
+
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        LOCATION
+                    </span>
+
+                    <strong>
+                        Bengaluru,
+                        Karnataka, India
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Social Links -->
+
+            <div class="social-links">
+
+
+                <a href="https://github.com/Sumithg"
+                   target="_blank">
+
+                    GitHub
+
+                </a>
+
+
+                <a href="https://www.linkedin.com/in/sumith-g-1955542a2/"
+                   target="_blank">
+
+                    LinkedIn
+
+                </a>
+
+            </div>
+
+        </aside>
+
+
+
+        <!-- ================= FORM ================= -->
+
+        <section class="contact-form-area">
+
+
+            <div class="form-topline">
+
+                <span>
+                    MESSAGE FORM
+                </span>
+
+                <span>
+                    * REQUIRED
+                </span>
+
+            </div>
+
+
+            <form id="contactForm"
+                  novalidate>
+
+
+                <!-- Name -->
+
+                <div class="form-field">
+
+                    <label for="name">
+                        01 / Full Name *
+                    </label>
+
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           placeholder="Your name">
+
+
+                    <small id="nameError"
+                           class="form-error">
+                    </small>
+
+                </div>
+
+
+
+                <!-- Email -->
+
+                <div class="form-field">
+
+                    <label for="email">
+                        02 / Email Address *
+                    </label>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="you@example.com">
+
+
+                    <small id="emailError"
+                           class="form-error">
+                    </small>
+
+                </div>
+
+
+
+                <!-- Phone -->
+
+                <div class="form-field">
+
+                    <label for="phone">
+                        03 / Phone Number
+                    </label>
+
+                    <input type="tel"
+                           id="phone"
+                           name="phone"
+                           placeholder="+91 98765 43210">
+
+
+                    <small id="phoneError"
+                           class="form-error">
+                    </small>
+
+                </div>
+
+
+
+                <!-- Subject -->
+
+                <div class="form-field">
+
+                    <label for="subject">
+                        04 / Subject *
+                    </label>
+
+
+                    <select id="subject"
+                            name="subject">
+
+
+                        <option value="">
+                            Choose a subject
+                        </option>
+
+
+                        <option value="Academic">
+                            Academic Discussion
+                        </option>
+
+
+                        <option value="Project">
+                            Project Discussion
+                        </option>
+
+
+                        <option value="Internship">
+                            Internship Opportunity
+                        </option>
+
+
+                        <option value="Technical">
+                            Technical Discussion
+                        </option>
+
+
+                        <option value="Other">
+                            Other
+                        </option>
+
+
+                    </select>
+
+
+                    <small id="subjectError"
+                           class="form-error">
+                    </small>
+
+                </div>
+
+
+
+                <!-- Message -->
+
+                <div class="form-field">
+
+                    <label for="message">
+                        05 / Message *
+                    </label>
+
+
+                    <textarea id="message"
+                              name="message"
+                              maxlength="500"
+                              rows="7"
+                              placeholder="Write your message..."></textarea>
+
+
+                    <div class="message-bottom">
+
+                        <small id="messageError"
+                               class="form-error">
+                        </small>
+
+                        <span id="charCount">
+                            0 / 500
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Confirmation -->
+
+                <label class="form-checkbox">
+
+                    <input type="checkbox"
+                           id="agree">
+
+                    <span>
+
+                        I confirm that the information
+                        entered above is correct.
+
+                    </span>
+
+                </label>
+
+
+                <small id="agreeError"
+                       class="form-error">
+                </small>
+
+
+
+                <!-- Button -->
+
+                <button type="submit"
+                        class="orange-button form-submit">
+
+                    Send Message
+
+                    <span>
+                        ↗
+                    </span>
+
+                </button>
+
+
+
+                <!-- Success -->
+
+                <div id="formSuccess"
+                     class="form-success">
+
+                    <strong>
+                        Message validated successfully.
+                    </strong>
+
+                    <span>
+                        This is a demonstration form,
+                        so no message is sent to a server.
+                    </span>
+
+                </div>
+
+
+            </form>
+
+        </section>
+
+    </section>
+
+</main>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="site-footer">
+
+    <div>
+
+        <strong>
+            SG.
+        </strong>
+
+        <span>
+            SUMITH G
+        </span>
+
+    </div>
+
+
+    <div>
+
+        <span>
+            Bengaluru, Karnataka
+        </span>
+
+        <span>
+            © <span id="currentYear"></span>
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
